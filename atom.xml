@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>ca11m3g00d的个人博客</title>
+  
+  <subtitle>ca11m3g00d&#39;s blog</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2021-03-31T12:49:09.769Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>ca11m3g00d</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>插入排序算法</title>
+    <link href="http://example.com/2021/03/31/cha-ru-pai-xu-suan-fa/"/>
+    <id>http://example.com/2021/03/31/cha-ru-pai-xu-suan-fa/</id>
+    <published>2021-03-31T12:48:46.268Z</published>
+    <updated>2021-03-31T12:49:09.769Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;i&gt;
+
+&lt;p&gt;notice:  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;为了方便语言形容，本文章默认是从小到大排序。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/i&gt;  
+
+&lt;h1 id=&quot;算法思路&quot;&gt;&lt;a href=&quot;#算法思路&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="数据结构&amp;算法" scheme="http://example.com/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="排序算法" scheme="http://example.com/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E7%AE%97%E6%B3%95/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/"/>
+    
+    
+    <category term="算法" scheme="http://example.com/tags/%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="排序" scheme="http://example.com/tags/%E6%8E%92%E5%BA%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>选择排序算法</title>
+    <link href="http://example.com/2021/03/31/xuan-ze-pai-xu-suan-fa/"/>
+    <id>http://example.com/2021/03/31/xuan-ze-pai-xu-suan-fa/</id>
+    <published>2021-03-31T12:08:08.574Z</published>
+    <updated>2021-03-31T12:13:31.557Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;i&gt;
+
+&lt;p&gt;notice:  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;为了方便语言形容，本文章默认是从小到大排序。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/i&gt;  
+
+&lt;h1 id=&quot;算法思路&quot;&gt;&lt;a href=&quot;#算法思路&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="数据结构&amp;算法" scheme="http://example.com/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="排序算法" scheme="http://example.com/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E7%AE%97%E6%B3%95/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/"/>
+    
+    
+    <category term="算法" scheme="http://example.com/tags/%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="排序" scheme="http://example.com/tags/%E6%8E%92%E5%BA%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>冒泡排序算法</title>
+    <link href="http://example.com/2021/03/31/mou-pao-pai-xu-suan-fa/"/>
+    <id>http://example.com/2021/03/31/mou-pao-pai-xu-suan-fa/</id>
+    <published>2021-03-31T11:09:17.450Z</published>
+    <updated>2021-03-31T11:32:06.797Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;i&gt;
+
+&lt;p&gt;notice:  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;为了方便语言形容，本文章默认是从小到大排序。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/i&gt;  
+
+&lt;h1 id=&quot;算法思路&quot;&gt;&lt;a href=&quot;#算法思路&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="数据结构&amp;算法" scheme="http://example.com/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="排序算法" scheme="http://example.com/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E7%AE%97%E6%B3%95/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/"/>
+    
+    
+    <category term="算法" scheme="http://example.com/tags/%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="排序" scheme="http://example.com/tags/%E6%8E%92%E5%BA%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Markdown Guide</title>
+    <link href="http://example.com/2021/03/31/markdown-guide/"/>
+    <id>http://example.com/2021/03/31/markdown-guide/</id>
+    <published>2021-03-31T06:59:15.277Z</published>
+    <updated>2021-03-31T10:32:39.947Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Markdown-Guide&quot;&gt;&lt;a href=&quot;#Markdown-Guide&quot; class=&quot;headerlink&quot; title=&quot;Markdown Guide&quot;&gt;&lt;/a&gt;&lt;em&gt;&lt;strong&gt;Markdown</summary>
+        
+      
+    
+    
+    
+    <category term="杂项" scheme="http://example.com/categories/%E6%9D%82%E9%A1%B9/"/>
+    
+    <category term="Markdown" scheme="http://example.com/categories/%E6%9D%82%E9%A1%B9/Markdown/"/>
+    
+    
+    <category term="学习记录" scheme="http://example.com/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
+    
+  </entry>
+  
+</feed>
