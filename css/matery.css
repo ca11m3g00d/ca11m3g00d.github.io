@@ -551,8 +551,8 @@ header .go-back i {
 }
 
 .bg-cover:after {
-    -webkit-animation: rainbow 60s infinite;
-    animation: rainbow 60s infinite;
+    -webkit-animation: rainbow_false 60s infinite;
+    animation: rainbow_false 60s infinite;
 }
 
 .bg-cover:before,
@@ -593,6 +593,7 @@ header .go-back i {
     font-weight: 400;
 }
 
+@-webkit-keyframes
 @-webkit-keyframes rainbow {
 
     0%,
