@@ -386,28 +386,37 @@
                 </a>
                 
                 
-                <a href="/tags/%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97/" title="开发日志: 1">
+                <a href="/tags/%E6%95%99%E7%A8%8B/" title="教程: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="开发日志" style="background-color: #F5EEF8;">开发日志
+                            data-tagname="教程" style="background-color: #F5EEF8;">教程
                         <span class="tag-length">1</span>
                     </span>
                 </a>
                 
                 
-                <a href="/tags/botprofileEditor/" title="botprofileEditor: 1">
+                <a href="/tags/MySQL/" title="MySQL: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="botprofileEditor" style="background-color: #D5F5E3;">botprofileEditor
+                            data-tagname="MySQL" style="background-color: #D5F5E3;">MySQL
                         <span class="tag-length">1</span>
                     </span>
                 </a>
                 
                 
-                <a href="/tags/csgo/" title="csgo: 1">
+                <a href="/tags/ubuntu/" title="ubuntu: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="csgo" style="background-color: #E8F8F5;">csgo
+                            data-tagname="ubuntu" style="background-color: #E8F8F5;">ubuntu
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Linux/" title="Linux: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Linux" style="background-color: #FEF9E7;">Linux
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -416,7 +425,7 @@
                 <a href="/tags/%E7%AE%97%E6%B3%95/" title="算法: 3">
                     <span class="chip center-align waves-effect waves-light
                              chip-active "
-                            data-tagname="算法" style="background-color: #FEF9E7;">算法
+                            data-tagname="算法" style="background-color: #F8F9F9;">算法
                         <span class="tag-length">3</span>
                     </span>
                 </a>
@@ -425,7 +434,7 @@
                 <a href="/tags/%E6%8E%92%E5%BA%8F/" title="排序: 3">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="排序" style="background-color: #F8F9F9;">排序
+                            data-tagname="排序" style="background-color: #82E0AA;">排序
                         <span class="tag-length">3</span>
                     </span>
                 </a>
@@ -446,8 +455,7 @@
                     <a href="/2021/03/31/%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/">
                         <div class="card-image tag-image">
                             
-                            
-                            <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="插入排序算法">
+                            <img src="/images/datastruct/codebrain.jpg" class="responsive-img" alt="插入排序算法">
                             
                             <span class="card-title">插入排序算法</span>
                         </div>
@@ -482,8 +490,7 @@
                     <a href="/2021/03/31/%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/">
                         <div class="card-image tag-image">
                             
-                            
-                            <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="选择排序算法">
+                            <img src="/images/datastruct/codebrain.jpg" class="responsive-img" alt="选择排序算法">
                             
                             <span class="card-title">选择排序算法</span>
                         </div>
@@ -518,8 +525,7 @@
                     <a href="/2021/03/31/%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/">
                         <div class="card-image tag-image">
                             
-                            
-                            <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="冒泡排序算法">
+                            <img src="/images/datastruct/codebrain.jpg" class="responsive-img" alt="冒泡排序算法">
                             
                             <span class="card-title">冒泡排序算法</span>
                         </div>
@@ -557,7 +563,7 @@
 
     <footer class="page-footer bg-color">
     
-    <div class="container row center-align" style="margin-bottom: 0px !important;">
+    <div class="container row center-align" style="margin-bottom: 15px !important;">
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             
@@ -568,8 +574,6 @@
             |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
             |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
             <br>
-            
-            
             
             
             
@@ -587,10 +591,54 @@
             
             <br>
             
+            <span id="sitetime">载入运行时间...</span>
+            <script>
+                function siteTime() {
+                    var seconds = 1000;
+                    var minutes = seconds * 60;
+                    var hours = minutes * 60;
+                    var days = hours * 24;
+                    var years = days * 365;
+                    var today = new Date();
+                    var startYear = "2021";
+                    var startMonth = "3";
+                    var startDate = "31";
+                    var startHour = "0";
+                    var startMinute = "0";
+                    var startSecond = "0";
+                    var todayYear = today.getFullYear();
+                    var todayMonth = today.getMonth() + 1;
+                    var todayDate = today.getDate();
+                    var todayHour = today.getHours();
+                    var todayMinute = today.getMinutes();
+                    var todaySecond = today.getSeconds();
+                    var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
+                    var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+                    var diff = t2 - t1;
+                    var diffYears = Math.floor(diff / years);
+                    var diffDays = Math.floor((diff / days) - diffYears * 365);
+                    var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+                    var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) /
+                        minutes);
+                    var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours -
+                        diffMinutes * minutes) / seconds);
+                    if (startYear == todayYear) {
+                        document.getElementById("year").innerHTML = todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffDays + " 天 " + diffHours +
+                            " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    } else {
+                        document.getElementById("year").innerHTML = startYear + " - " + todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffYears + " 年 " + diffDays +
+                            " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    }
+                }
+                setInterval(siteTime, 1000);
+            </script>
+            
             <br>
             
         </div>
-        <div class="col s12 m4 l4 social-link social-statis">
+        <div class="col s12 m4 l4 social-link ">
     <a href="https://github.com/ca11m3g00d" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
         <i class="fab fa-github"></i>
     </a>
@@ -766,8 +814,6 @@ $(function () {
 </script>
 
     
-    
-    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
     
 
     

@@ -621,7 +621,7 @@ goto <span class="token url">[<span class="token content">github</span>][<span c
 </tbody></table>
 <hr>
 <h1 id="11-图片"><a href="#11-图片" class="headerlink" title="11. 图片"></a><strong>11. 图片</strong></h1><pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown"><span class="token url"><span class="token operator">!</span>[<span class="token content">alt</span>](<span class="token url">图片链接</span>)</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p><img src="/.com//null" alt="alt"></p>
+<p><img src="/.top//null" alt="alt"></p>
 <hr>
 <h1 id="12-其它"><a href="#12-其它" class="headerlink" title="12. 其它"></a><strong>12. 其它</strong></h1><pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>kbd</span><span class="token punctuation">&gt;</span></span>键盘<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>kdb</span><span class="token punctuation">&gt;</span></span>  
 
@@ -658,7 +658,7 @@ goto <span class="token url">[<span class="token content">github</span>][<span c
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://example.com/2021/03/31/Markdown%20Guide/">http://example.com/2021/03/31/Markdown%20Guide/</a>
+                    <a href="http://ca11m3g00d.top/2021/03/31/Markdown%20Guide/">http://ca11m3g00d.top/2021/03/31/Markdown%20Guide/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -1142,8 +1142,7 @@ goto <span class="token url">[<span class="token content">github</span>][<span c
                 <a href="/2021/03/31/%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/">
                     <div class="card-image">
                         
-                        
-                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="冒泡排序算法">
+                        <img src="/images/datastruct/codebrain.jpg" class="responsive-img" alt="冒泡排序算法">
                         
                         <span class="card-title">冒泡排序算法</span>
                     </div>
@@ -1372,7 +1371,7 @@ goto <span class="token url">[<span class="token content">github</span>][<span c
 
     <footer class="page-footer bg-color">
     
-    <div class="container row center-align" style="margin-bottom: 0px !important;">
+    <div class="container row center-align" style="margin-bottom: 15px !important;">
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             
@@ -1383,8 +1382,6 @@ goto <span class="token url">[<span class="token content">github</span>][<span c
             |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
             |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
             <br>
-            
-            
             
             
             
@@ -1402,10 +1399,54 @@ goto <span class="token url">[<span class="token content">github</span>][<span c
             
             <br>
             
+            <span id="sitetime">载入运行时间...</span>
+            <script>
+                function siteTime() {
+                    var seconds = 1000;
+                    var minutes = seconds * 60;
+                    var hours = minutes * 60;
+                    var days = hours * 24;
+                    var years = days * 365;
+                    var today = new Date();
+                    var startYear = "2021";
+                    var startMonth = "3";
+                    var startDate = "31";
+                    var startHour = "0";
+                    var startMinute = "0";
+                    var startSecond = "0";
+                    var todayYear = today.getFullYear();
+                    var todayMonth = today.getMonth() + 1;
+                    var todayDate = today.getDate();
+                    var todayHour = today.getHours();
+                    var todayMinute = today.getMinutes();
+                    var todaySecond = today.getSeconds();
+                    var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
+                    var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+                    var diff = t2 - t1;
+                    var diffYears = Math.floor(diff / years);
+                    var diffDays = Math.floor((diff / days) - diffYears * 365);
+                    var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+                    var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) /
+                        minutes);
+                    var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours -
+                        diffMinutes * minutes) / seconds);
+                    if (startYear == todayYear) {
+                        document.getElementById("year").innerHTML = todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffDays + " 天 " + diffHours +
+                            " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    } else {
+                        document.getElementById("year").innerHTML = startYear + " - " + todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffYears + " 年 " + diffDays +
+                            " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    }
+                }
+                setInterval(siteTime, 1000);
+            </script>
+            
             <br>
             
         </div>
-        <div class="col s12 m4 l4 social-link social-statis">
+        <div class="col s12 m4 l4 social-link ">
     <a href="https://github.com/ca11m3g00d" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
         <i class="fab fa-github"></i>
     </a>
@@ -1581,8 +1622,6 @@ $(function () {
 </script>
 
     
-    
-    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
     
 
     

@@ -3,11 +3,11 @@
   <title>ca11m3g00d的个人博客</title>
   
   <subtitle>ca11m3g00d&#39;s blog</subtitle>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="http://ca11m3g00d.top/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
-  <updated>2021-04-16T16:44:51.220Z</updated>
-  <id>http://example.com/</id>
+  <link href="http://ca11m3g00d.top/"/>
+  <updated>2021-04-25T11:21:10.425Z</updated>
+  <id>http://ca11m3g00d.top/</id>
   
   <author>
     <name>ca11m3g00d</name>
@@ -17,42 +17,44 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>botprofileEditor开发日志</title>
-    <link href="http://example.com/2021/04/16/botprofileEditor%E5%BC%80%E5%8F%91%E6%8A%A5%E5%91%8A1/"/>
-    <id>http://example.com/2021/04/16/botprofileEditor%E5%BC%80%E5%8F%91%E6%8A%A5%E5%91%8A1/</id>
-    <published>2021-04-16T15:51:15.973Z</published>
-    <updated>2021-04-16T16:44:51.220Z</updated>
+    <title>ubuntu云服务器安装配置mysql-server</title>
+    <link href="http://ca11m3g00d.top/2021/04/25/mysql-server/"/>
+    <id>http://ca11m3g00d.top/2021/04/25/mysql-server/</id>
+    <published>2021-04-25T10:49:12.176Z</published>
+    <updated>2021-04-25T11:21:10.425Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://i.loli.net/2021/04/17/POBmgzj5LqU3Gb9.png&quot;&gt;https://i.loli.net/2021/04/17/POBmgzj5LqU3Gb9.png&lt;/a&gt;&lt;br&gt;&lt;a</summary>
+    <summary type="html">&lt;h1 id=&quot;准备工作&quot;&gt;&lt;a href=&quot;#准备工作&quot; class=&quot;headerlink&quot; title=&quot;准备工作&quot;&gt;&lt;/a&gt;准备工作&lt;/h1&gt;&lt;h2 id=&quot;环境&quot;&gt;&lt;a href=&quot;#环境&quot; class=&quot;headerlink&quot;</summary>
         
       
     
     
     
-    <category term="项目" scheme="http://example.com/categories/%E9%A1%B9%E7%9B%AE/"/>
+    <category term="数据库" scheme="http://ca11m3g00d.top/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
-    <category term="botprofileEditor" scheme="http://example.com/categories/%E9%A1%B9%E7%9B%AE/botprofileEditor/"/>
+    <category term="MySQL" scheme="http://ca11m3g00d.top/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/MySQL/"/>
     
     
-    <category term="开发日志" scheme="http://example.com/tags/%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97/"/>
+    <category term="教程" scheme="http://ca11m3g00d.top/tags/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="botprofileEditor" scheme="http://example.com/tags/botprofileEditor/"/>
+    <category term="MySQL" scheme="http://ca11m3g00d.top/tags/MySQL/"/>
     
-    <category term="csgo" scheme="http://example.com/tags/csgo/"/>
+    <category term="ubuntu" scheme="http://ca11m3g00d.top/tags/ubuntu/"/>
+    
+    <category term="Linux" scheme="http://ca11m3g00d.top/tags/Linux/"/>
     
   </entry>
   
   <entry>
     <title>插入排序算法</title>
-    <link href="http://example.com/2021/03/31/%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/"/>
-    <id>http://example.com/2021/03/31/%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/</id>
+    <link href="http://ca11m3g00d.top/2021/03/31/%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/"/>
+    <id>http://ca11m3g00d.top/2021/03/31/%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/</id>
     <published>2021-03-31T12:48:46.268Z</published>
-    <updated>2021-03-31T12:49:09.769Z</updated>
+    <updated>2021-04-25T11:25:29.304Z</updated>
     
     
       
@@ -73,23 +75,23 @@
     
     
     
-    <category term="数据结构&amp;算法" scheme="http://example.com/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E7%AE%97%E6%B3%95/"/>
+    <category term="数据结构&amp;算法" scheme="http://ca11m3g00d.top/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E7%AE%97%E6%B3%95/"/>
     
-    <category term="排序算法" scheme="http://example.com/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E7%AE%97%E6%B3%95/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/"/>
+    <category term="排序算法" scheme="http://ca11m3g00d.top/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E7%AE%97%E6%B3%95/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/"/>
     
     
-    <category term="算法" scheme="http://example.com/tags/%E7%AE%97%E6%B3%95/"/>
+    <category term="算法" scheme="http://ca11m3g00d.top/tags/%E7%AE%97%E6%B3%95/"/>
     
-    <category term="排序" scheme="http://example.com/tags/%E6%8E%92%E5%BA%8F/"/>
+    <category term="排序" scheme="http://ca11m3g00d.top/tags/%E6%8E%92%E5%BA%8F/"/>
     
   </entry>
   
   <entry>
     <title>选择排序算法</title>
-    <link href="http://example.com/2021/03/31/%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/"/>
-    <id>http://example.com/2021/03/31/%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/</id>
+    <link href="http://ca11m3g00d.top/2021/03/31/%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/"/>
+    <id>http://ca11m3g00d.top/2021/03/31/%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/</id>
     <published>2021-03-31T12:08:08.574Z</published>
-    <updated>2021-03-31T12:13:31.557Z</updated>
+    <updated>2021-04-25T11:25:57.889Z</updated>
     
     
       
@@ -110,23 +112,23 @@
     
     
     
-    <category term="数据结构&amp;算法" scheme="http://example.com/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E7%AE%97%E6%B3%95/"/>
+    <category term="数据结构&amp;算法" scheme="http://ca11m3g00d.top/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E7%AE%97%E6%B3%95/"/>
     
-    <category term="排序算法" scheme="http://example.com/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E7%AE%97%E6%B3%95/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/"/>
+    <category term="排序算法" scheme="http://ca11m3g00d.top/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E7%AE%97%E6%B3%95/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/"/>
     
     
-    <category term="算法" scheme="http://example.com/tags/%E7%AE%97%E6%B3%95/"/>
+    <category term="算法" scheme="http://ca11m3g00d.top/tags/%E7%AE%97%E6%B3%95/"/>
     
-    <category term="排序" scheme="http://example.com/tags/%E6%8E%92%E5%BA%8F/"/>
+    <category term="排序" scheme="http://ca11m3g00d.top/tags/%E6%8E%92%E5%BA%8F/"/>
     
   </entry>
   
   <entry>
     <title>冒泡排序算法</title>
-    <link href="http://example.com/2021/03/31/%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/"/>
-    <id>http://example.com/2021/03/31/%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/</id>
+    <link href="http://ca11m3g00d.top/2021/03/31/%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/"/>
+    <id>http://ca11m3g00d.top/2021/03/31/%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/</id>
     <published>2021-03-31T11:09:17.450Z</published>
-    <updated>2021-03-31T11:32:06.797Z</updated>
+    <updated>2021-04-25T11:25:50.295Z</updated>
     
     
       
@@ -147,21 +149,21 @@
     
     
     
-    <category term="数据结构&amp;算法" scheme="http://example.com/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E7%AE%97%E6%B3%95/"/>
+    <category term="数据结构&amp;算法" scheme="http://ca11m3g00d.top/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E7%AE%97%E6%B3%95/"/>
     
-    <category term="排序算法" scheme="http://example.com/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E7%AE%97%E6%B3%95/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/"/>
+    <category term="排序算法" scheme="http://ca11m3g00d.top/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E7%AE%97%E6%B3%95/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/"/>
     
     
-    <category term="算法" scheme="http://example.com/tags/%E7%AE%97%E6%B3%95/"/>
+    <category term="算法" scheme="http://ca11m3g00d.top/tags/%E7%AE%97%E6%B3%95/"/>
     
-    <category term="排序" scheme="http://example.com/tags/%E6%8E%92%E5%BA%8F/"/>
+    <category term="排序" scheme="http://ca11m3g00d.top/tags/%E6%8E%92%E5%BA%8F/"/>
     
   </entry>
   
   <entry>
     <title>Markdown Guide</title>
-    <link href="http://example.com/2021/03/31/Markdown%20Guide/"/>
-    <id>http://example.com/2021/03/31/Markdown%20Guide/</id>
+    <link href="http://ca11m3g00d.top/2021/03/31/Markdown%20Guide/"/>
+    <id>http://ca11m3g00d.top/2021/03/31/Markdown%20Guide/</id>
     <published>2021-03-31T06:59:15.277Z</published>
     <updated>2021-04-16T07:23:01.770Z</updated>
     
@@ -176,12 +178,12 @@
     
     
     
-    <category term="杂项" scheme="http://example.com/categories/%E6%9D%82%E9%A1%B9/"/>
+    <category term="杂项" scheme="http://ca11m3g00d.top/categories/%E6%9D%82%E9%A1%B9/"/>
     
-    <category term="Markdown" scheme="http://example.com/categories/%E6%9D%82%E9%A1%B9/Markdown/"/>
+    <category term="Markdown" scheme="http://ca11m3g00d.top/categories/%E6%9D%82%E9%A1%B9/Markdown/"/>
     
     
-    <category term="学习记录" scheme="http://example.com/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
+    <category term="学习记录" scheme="http://ca11m3g00d.top/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
     
   </entry>
   
